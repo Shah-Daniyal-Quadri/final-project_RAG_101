@@ -1,0 +1,13 @@
+qid,question,gold,pred,em,f1,recall_at_4,retrieved,followup_query,latency_s
+q001,Who wrote the Ninety-five Theses?,Martin Luther,Yes,0,0.0,,Ninety-five Theses#000|Martin Luther#019|Martin Luther#016|Ninety-five Theses#023,,16.03
+q002,Did Martin Luther write the Ninety-five Theses?,yes,Yes,1,1.0,,Martin Luther#019|Martin Luther#016|Martin Luther#018|Ninety-five Theses#000,,7.66
+q003,Which reformer was based in Geneva?,John Calvin,Yes,0,0.0,,John Calvin#055|Reformation#093|Reformation#083|John Calvin#000,,7.6
+q004,Was the Council of Trent part of the Counter-Reformation?,yes,Yes,1,1.0,,Counter-Reformation#000|Counter-Reformation#005|Counter-Reformation#053|Counter-Reformation#017,,6.8
+q005,Who was the monk whose challenge to indulgences triggered the Protestant Reformation?,Martin Luther,Yes,0,0.0,,Martin Luther#038|Reformation#033|Reformation#007|Martin Luther#000,,7.78
+q006,Which caliphate sponsored the House of Wisdom in Baghdad?,Abbasid,Abbasid,1,1.0,,House of Wisdom#031|House of Wisdom#003|House of Wisdom#001|Islamic Golden Age#000,,8.34
+q007,Who was the mathematician at the House of Wisdom known for founding algebra?,Al-Khwarizmi,Yes,0,0.0,,House of Wisdom#026|Abbasid Caliphate#070|Al-Khwarizmi#001|House of Wisdom#027,,6.93
+q008,Was Baghdad the capital of the Abbasid Caliphate?,yes,Yes,1,1.0,,Abbasid Caliphate#001|Abbasid Caliphate#013|Abbasid Caliphate#017|Abbasid Caliphate#000,,8.01
+q009,What mathematical field is Al-Khwarizmi known for founding?,algebra,Algebra,1,1.0,,Al-Khwarizmi#020|Al-Khwarizmi#000|Al-Khwarizmi#001|Al-Khwarizmi#008,,8.22
+q010,Which Abbasid caliph expanded the House of Wisdom and supported Al-Khwarizmi?,al-Ma'mun,Yes,0,0.0,,House of Wisdom#000|House of Wisdom#001|House of Wisdom#007|House of Wisdom#003,,8.54
+q011,Which council called for the First Crusade?,Council of Clermont,Yes,0,0.0,,First Crusade#000|Crusades#000|First Crusade#024|Crusades#117,,7.3
+q012,Did the First Crusade capture Jerusalem?,yes,Yes,1,1.0,,Crusades#000|Crusades#002|Crusades#022|First Crusade#003,,9.47

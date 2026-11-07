@@ -1,0 +1,17 @@
+model: llama3.1:8b
+embedding_model: all-MiniLM-L6-v2
+temperature: 0
+seed: 42
+top_k_first: 2
+top_k_second: 2
+top_k_single: 4
+chunk_min_words: 60
+chunk_max_words: 140
+ollama_host: http://localhost:11434
+paths:
+  articles: data/raw/articles.json
+  chunks: data/processed/chunks.jsonl
+  index: data/processed/index.npz
+  questions: data/processed/questions.jsonl
+  splits: data/splits
+  results: results

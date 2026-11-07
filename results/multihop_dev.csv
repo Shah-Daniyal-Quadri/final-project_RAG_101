@@ -1,0 +1,13 @@
+qid,question,gold,pred,em,f1,recall_at_4,retrieved,followup_query,latency_s
+q001,Who wrote the Ninety-five Theses?,Martin Luther,Yes,0,0.0,,Ninety-five Theses#000|Martin Luther#019|Ninety-five Theses#012|Ninety-five Theses#015,Martin Luther wrote the Ninety-five Theses,19.96
+q002,Did Martin Luther write the Ninety-five Theses?,yes,No,0,0.0,,Martin Luther#019|Martin Luther#016|Ninety-five Theses#012|Martin Luther#018,Martin Luther's Ninety-five Theses,12.51
+q003,Which reformer was based in Geneva?,John Calvin,Yes,0,0.0,,John Calvin#055|Reformation#093|John Calvin#000|John Calvin#037,Reformed reformer based in Geneva,11.7
+q004,Was the Council of Trent part of the Counter-Reformation?,yes,Yes,1,1.0,,Counter-Reformation#000|Counter-Reformation#005|Counter-Reformation#053|Counter-Reformation#017,Council of Trent and Counter-Reformation,5.06
+q005,Who was the monk whose challenge to indulgences triggered the Protestant Reformation?,Martin Luther,No,0,0.0,,Martin Luther#038|Reformation#033|Ninety-five Theses#010|Ninety-five Theses#005,Luther's challenge to indulgences,11.37
+q006,Which caliphate sponsored the House of Wisdom in Baghdad?,Abbasid,Abbasid Caliphate,0,0.6666666666666666,,House of Wisdom#031|House of Wisdom#003|House of Wisdom#024|House of Wisdom#036,House of Wisdom funding source,10.84
+q007,Who was the mathematician at the House of Wisdom known for founding algebra?,Al-Khwarizmi,Yes,0,0.0,,House of Wisdom#026|Abbasid Caliphate#070|Al-Khwarizmi#008|Al-Khwarizmi#000,Muhammad ibn Mūsā al-Khwarizmi,9.84
+q008,Was Baghdad the capital of the Abbasid Caliphate?,yes,Yes,1,1.0,,Abbasid Caliphate#001|Abbasid Caliphate#013|Abbasid Caliphate#017|Abbasid Caliphate#000,Abbasid Caliphate capital city Baghdad,5.65
+q009,What mathematical field is Al-Khwarizmi known for founding?,algebra,Yes,0,0.0,,Al-Khwarizmi#020|Al-Khwarizmi#000|Al-Khwarizmi#015|Al-Khwarizmi#001,Al-Khwarizmi’s mathematical work,11.83
+q010,Which Abbasid caliph expanded the House of Wisdom and supported Al-Khwarizmi?,al-Ma'mun,Yes,0,0.0,,House of Wisdom#000|House of Wisdom#001|House of Wisdom#033|House of Wisdom#024,Abbasid House of Wisdom expansion,11.25
+q011,Which council called for the First Crusade?,Council of Clermont,Yes,0,0.0,,First Crusade#000|Crusades#000|First Crusade#024|First Crusade#026,Council of Clermont,12.4
+q012,Did the First Crusade capture Jerusalem?,yes,Yes,1,1.0,,Crusades#000|Crusades#002|First Crusade#003|Crusades#022,First Crusade captured Jerusalem,11.75

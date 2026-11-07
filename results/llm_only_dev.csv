@@ -1,0 +1,13 @@
+qid,question,gold,pred,em,f1,recall_at_4,retrieved,followup_query,latency_s
+q001,Who wrote the Ninety-five Theses?,Martin Luther,Yes.,0,0.0,,,,4.55
+q002,Did Martin Luther write the Ninety-five Theses?,yes,Yes,1,1.0,,,,0.7
+q003,Which reformer was based in Geneva?,John Calvin,Yes,0,0.0,,,,0.71
+q004,Was the Council of Trent part of the Counter-Reformation?,yes,Yes,1,1.0,,,,0.69
+q005,Who was the monk whose challenge to indulgences triggered the Protestant Reformation?,Martin Luther,No,0,0.0,,,,0.73
+q006,Which caliphate sponsored the House of Wisdom in Baghdad?,Abbasid,Yes,0,0.0,,,,0.68
+q007,Who was the mathematician at the House of Wisdom known for founding algebra?,Al-Khwarizmi,No,0,0.0,,,,0.71
+q008,Was Baghdad the capital of the Abbasid Caliphate?,yes,Yes.,1,1.0,,,,0.73
+q009,What mathematical field is Al-Khwarizmi known for founding?,algebra,Mathematics,0,0.0,,,,0.69
+q010,Which Abbasid caliph expanded the House of Wisdom and supported Al-Khwarizmi?,al-Ma'mun,Yes,0,0.0,,,,0.79
+q011,Which council called for the First Crusade?,Council of Clermont,No,0,0.0,,,,0.66
+q012,Did the First Crusade capture Jerusalem?,yes,No.,0,0.0,,,,0.73
