@@ -4,7 +4,7 @@ from src.config import path
 API = "https://en.wikipedia.org/w/api.php"
 # A more descriptive User-Agent is strongly recommended.
 HEADERS = {
-    "User-Agent": "RAG101-Research-Project/1.0 (https://your-project-url-or-email-here; contact@example.com) requests"
+    "User-Agent": "RAG101-Research-Project/1.0 (https://github.com/Shah-Daniyal-Quadri/final-project_RAG_101; Shah.2.quadri@gamil.com) requests"
 }
 
 def fetch_article(session: requests.Session, title: str, max_retries: int = 5) -> dict:
