@@ -1,13 +1,51 @@
 qid,question,gold,pred,em,f1,recall_at_4,retrieved,followup_query,latency_s
-q001,Who wrote the Ninety-five Theses?,Martin Luther,Yes,0,0.0,,Ninety-five Theses#000|Martin Luther#019|Martin Luther#016|Ninety-five Theses#023,,16.03
-q002,Did Martin Luther write the Ninety-five Theses?,yes,Yes,1,1.0,,Martin Luther#019|Martin Luther#016|Martin Luther#018|Ninety-five Theses#000,,7.66
-q003,Which reformer was based in Geneva?,John Calvin,Yes,0,0.0,,John Calvin#055|Reformation#093|Reformation#083|John Calvin#000,,7.6
-q004,Was the Council of Trent part of the Counter-Reformation?,yes,Yes,1,1.0,,Counter-Reformation#000|Counter-Reformation#005|Counter-Reformation#053|Counter-Reformation#017,,6.8
-q005,Who was the monk whose challenge to indulgences triggered the Protestant Reformation?,Martin Luther,Yes,0,0.0,,Martin Luther#038|Reformation#033|Reformation#007|Martin Luther#000,,7.78
-q006,Which caliphate sponsored the House of Wisdom in Baghdad?,Abbasid,Abbasid,1,1.0,,House of Wisdom#031|House of Wisdom#003|House of Wisdom#001|Islamic Golden Age#000,,8.34
-q007,Who was the mathematician at the House of Wisdom known for founding algebra?,Al-Khwarizmi,Yes,0,0.0,,House of Wisdom#026|Abbasid Caliphate#070|Al-Khwarizmi#001|House of Wisdom#027,,6.93
-q008,Was Baghdad the capital of the Abbasid Caliphate?,yes,Yes,1,1.0,,Abbasid Caliphate#001|Abbasid Caliphate#013|Abbasid Caliphate#017|Abbasid Caliphate#000,,8.01
-q009,What mathematical field is Al-Khwarizmi known for founding?,algebra,Algebra,1,1.0,,Al-Khwarizmi#020|Al-Khwarizmi#000|Al-Khwarizmi#001|Al-Khwarizmi#008,,8.22
-q010,Which Abbasid caliph expanded the House of Wisdom and supported Al-Khwarizmi?,al-Ma'mun,Yes,0,0.0,,House of Wisdom#000|House of Wisdom#001|House of Wisdom#007|House of Wisdom#003,,8.54
-q011,Which council called for the First Crusade?,Council of Clermont,Yes,0,0.0,,First Crusade#000|Crusades#000|First Crusade#024|Crusades#117,,7.3
-q012,Did the First Crusade capture Jerusalem?,yes,Yes,1,1.0,,Crusades#000|Crusades#002|Crusades#022|First Crusade#003,,9.47
+q001,The ruler who defeated Ibrahim Lodi at the First Battle of Panipat wrote his memoirs in which Turkic language?,Chagatai,Chagatai.,1,1.0,,Babur#001|First Battle of Panipat#000|Babur#021|Babur#020,,70.49
+q005,What was the birth name of the empress who was the paternal aunt of Mumtaz Mahal?,Mehr-un-Nissa,No answer is provided in the passages for the question asked.,0,0.0,,Mumtaz Mahal#000|Mumtaz Mahal#009|Shah Jahan#011|Mumtaz Mahal#003,,30.1
+q009,The emperor who commissioned the Red Fort was imprisoned by his son in which fort?,Agra Fort,No,0,0.0,,Red Fort#010|Red Fort#006|Red Fort#000|Red Fort#011,,19.02
+q013,Akbar's capital city built in the 1570s honoured which Sufi saint?,Salim Chishti,Sheikh Salim Chishti.,0,0.8,,Fatehpur Sikri#012|Akbar#061|Fatehpur Sikri#011|Fatehpur Sikri#002,,28.14
+q017,Who was the father of the empress buried in the Taj Mahal?,Asaf Khan,Shah Jahan.,0,0.0,,Mumtaz Mahal#000|Mumtaz Mahal#002|Taj Mahal#005|Mumtaz Mahal#015,,23.15
+q021,Which Hindu minister reformed the revenue system of the emperor who founded the Din-i Ilahi?,Todar Mal,No information is provided about a Hindu minister reforming the revenue system of Akbar.,0,0.0,,Din-i Ilahi#004|Din-i Ilahi#011|Din-i Ilahi#005|Din-i Ilahi#000,,29.07
+q025,Which jewelled throne was commissioned by the emperor who built the Taj Mahal?,Peacock Throne,No answer available.,0,0.0,,Taj Mahal#005|Taj Mahal#024|Taj Mahal#004|Mumtaz Mahal#014,,24.9
+q029,The Afghan ruler who defeated Humayun at Chausa was killed during the siege of which fort?,Kalinjar,No,0,0.0,,Humayun#027|Humayun#021|Sher Shah Suri#017|Humayun#029,,36.35
+q033,"Who died first, Babur or Humayun?",Babur,Babur.,1,1.0,,Humayun#039|Babur#044|Humayun#033|Babur#004,,31.3
+q037,"Which battle was fought earlier, the Second Battle of Panipat or the Battle of Khanwa?",Battle of Khanwa,Battle of Khanwa.,1,1.0,,First Battle of Panipat#000|Second Battle of Panipat#000|First Battle of Panipat#006|Second Battle of Panipat#011,,20.6
+q041,"Who lived longer, Aurangzeb or Akbar?",Aurangzeb,Aurangzeb.,1,1.0,,Mughal Empire#063|Mughal Empire#008|Abul Fazl#011|Aurangzeb#003,,29.73
+q045,"Who was born earlier, Jahangir or Nur Jahan?",Jahangir,Jahangir.,1,1.0,,Nur Jahan#008|Jahangir#000|Jahangir#006|Shah Jahan#002,,34.78
+q049,"Who was born first, Shah Jahan or Mumtaz Mahal?",Shah Jahan,Mumtaz Mahal.,0,0.0,,Mumtaz Mahal#006|Mumtaz Mahal#002|Mumtaz Mahal#003|Taj Mahal#006,,27.86
+q053,Robert Boyle's assistant who built his air pump had a famous dispute with which scientist over the inverse-square law?,Isaac Newton,Robert Hooke.,0,0.0,,Robert Boyle#000|Scientific Revolution#054|Robert Boyle#007|Scientific Revolution#070,,24.22
+q057,The anatomist whose 1543 book corrected errors of Galen was born in which city?,Brussels,Brussels.,1,1.0,,Andreas Vesalius#006|Andreas Vesalius#002|Andreas Vesalius#031|Andreas Vesalius#005,,25.03
+q061,The scientist who derived Kepler's laws from his law of gravitation held which professorship at Cambridge?,Lucasian Professor of Mathematics,Yes,0,0.0,,Scientific Revolution#023|Scientific Revolution#019|Kepler's laws of planetary motion#009|Johannes Kepler#066,,29.38
+q065,Which Flemish anatomist taught at the Italian university where William Harvey studied medicine?,Andreas Vesalius,No,0,0.0,,William Harvey#000|William Harvey#041|Andreas Vesalius#004|William Harvey#004,,27.31
+q069,On which island did the astronomer whose observations Kepler used build his observatory?,Hven,No,0,0.0,,Johannes Kepler#002|Johannes Kepler#078|Johannes Kepler#042|Johannes Kepler#060,,29.55
+q073,Who paid for the publication of the 1687 masterpiece of the Royal Society's president from 1703?,Edmond Halley,Edmund Halley.,0,0.5,,Philosophiæ Naturalis Principia Mathematica#036|Royal Society#011|Robert Hooke#008|Robert Hooke#041,,30.76
+q077,What is the Latin motto of the learned society that Isaac Newton led as president?,Nullius in verba,No answer available.,0,0.0,,Isaac Newton#048|Isaac Newton#092|Isaac Newton#087|Isaac Newton#110,,18.21
+q081,"What is the short title of the 1628 book by the English physician who studied at Padua, where Vesalius had taught?",De Motu Cordis,No information is provided about a 1628 book by an English physician who studied at Padua.,0,0.0,,Andreas Vesalius#011|Andreas Vesalius#013|Andreas Vesalius#004|Andreas Vesalius#005,,35.29
+q085,"Who was born first, Robert Boyle or Robert Hooke?",Robert Boyle,Robert Boyle.,1,1.0,,Robert Boyle#000|Robert Hooke#004|Robert Boyle#021|Robert Hooke#007,,27.17
+q089,"Who died first, Andreas Vesalius or Nicolaus Copernicus?",Nicolaus Copernicus,No,0,0.0,,Nicolaus Copernicus#061|Nicolaus Copernicus#002|Nicolaus Copernicus#043|Nicolaus Copernicus#032,,31.35
+q093,"Who died first, René Descartes or Francis Bacon?",Francis Bacon,Francis Bacon.,1,1.0,,Francis Bacon#028|Francis Bacon#003|Francis Bacon#025|Francis Bacon#059,,29.0
+q097,"Who was born first, Andreas Vesalius or Tycho Brahe?",Andreas Vesalius,Andreas Vesalius,1,1.0,,Tycho Brahe#006|Tycho Brahe#082|Andreas Vesalius#040|Andreas Vesalius#037,,22.82
+q101,The Mongol ruler who led the invasion of Kievan Rus' founded which capital city on the Volga?,Sarai,No,0,0.0,,Batu Khan#008|Mongol Empire#017|Subutai#029|Golden Horde#076,,27.05
+q105,The Venetian who served Kublai Khan dictated his travels to which writer from Pisa?,Rustichello da Pisa,Rustichello da Pisa.,1,1.0,,The Travels of Marco Polo#004|Marco Polo#001|Age of Discovery#018|Marco Polo#002,,31.99
+q109,The conqueror who rose to power in the western Chagatai Khanate was born near which city?,Kesh,Bukhara,0,0.0,,Chagatai Khanate#000|Chagatai Khanate#004|Chagatai Khanate#028|Chagatai Khanate#005,,25.84
+q113,The son of Genghis Khan after whom the Chagatai Khanate is named was the guardian of which law code?,Yassa,The Yassa.,1,1.0,,Yassa#000|Chagatai Khanate#000|Yassa#010|Chagatai Khanate#004,,32.09
+q117,The conqueror who defeated Tokhtamysh of the Golden Horde died in which year?,1405,Timur died in 1405.,0,0.4,,Golden Horde#062|Mongol Empire#058|Golden Horde#061|Golden Horde#060,,33.85
+q121,What is the name of the assembly that proclaimed Ögedei's father ruler of the Mongols in 1206?,kurultai,Kurultai,1,1.0,,Mongol Empire#013|Ögedei Khan#006|Ögedei Khan#000|Yuan dynasty#008,,35.5
+q125,At which 1241 battle did the founder of the Golden Horde defeat the Hungarians?,Battle of Mohi,No,0,0.0,,Golden Horde#055|Golden Horde#087|Golden Horde#001|Golden Horde#065,,32.93
+q129,Which ruler of the khanate founded by Hulagu converted to Islam in 1295?,Ghazan,No,0,0.0,,Hulegu Khan#000|Siege of Baghdad#023|Hulegu Khan#029|Hulegu Khan#002,,25.09
+q133,"Who died first, Genghis Khan or Ögedei Khan?",Genghis Khan,Genghis Khan.,1,1.0,,Mongol Empire#013|Ögedei Khan#006|Ögedei Khan#000|Ögedei Khan#032,,11.44
+q137,"Which was founded first, the Yuan dynasty or the Ilkhanate?",Ilkhanate,Ilkhanate.,1,1.0,,Ilkhanate#000|Yuan dynasty#000|Mongol Empire#004|Yuan dynasty#037,,28.2
+q141,"Who died first, Batu Khan or Möngke Khan?",Batu Khan,Möngke Khan.,0,0.5,,Möngke Khan#001|Möngke Khan#002|Chagatai Khanate#005|Möngke Khan#038,,28.01
+q145,"Which came to an end first, the Yuan dynasty or the Ilkhanate?",Ilkhanate,The Ilkhanate.,1,1.0,,Mongol Empire#004|Yuan dynasty#000|Mongol Empire#055|Mongol Empire#052,,29.47
+q149,"Who died first, Timur or Hulagu Khan?",Hulagu Khan,Hulagu Khan.,1,1.0,,Kublai Khan#013|Mongol Empire#047|Ögedei Khan#032|Hulegu Khan#023,,31.64
+q153,The leader of the first expedition to sail around the world was killed at which battle?,Battle of Mactan,The Philippines.,0,0.0,,Ferdinand Magellan#000|Magellan expedition#017|Bartolomeu Dias#014|Magellan expedition#002,,19.61
+q157,The explorer whose voyages started the Columbian exchange was born in which city?,Genoa,"Genoa, Italy.",0,0.6666666666666666,,Columbian exchange#000|Christopher Columbus#004|Christopher Columbus#028|Age of Discovery#001,,26.67
+q161,The French navigator who explored the Saint Lawrence River came from which port town?,Saint-Malo,Bristol,0,0.0,,Portuguese Empire#037|Age of Discovery#099|John Cabot#018|John Cabot#030,,29.42
+q165,The navigator whose first name was given to the Americas was born in which city?,Florence,Florence.,1,1.0,,John Cabot#000|Age of Discovery#052|Juan Sebastián Elcano#078|Christopher Columbus#029,,24.88
+q169,Near which place in the Algarve did the prince linked with the development of the caravel die?,Sagres,Sagres,1,1.0,,Prince Henry the Navigator#017|Caravel#010|Caravel#001|Prince Henry the Navigator#012,,25.33
+q173,Which German cartographer named the New World after the Florentine navigator of the Age of Discovery?,Martin Waldseemüller,Martin Waldseemüller.,1,1.0,,Amerigo Vespucci#001|Amerigo Vespucci#000|Age of Discovery#052|Amerigo Vespucci#023,,27.37
+q177,Which pope issued the bull that came before the treaty dividing the lands found by Columbus between Spain and Portugal?,Alexander VI,Pope Alexander VI.,0,0.8,,Christopher Columbus#038|Treaty of Tordesillas#004|Treaty of Tordesillas#003|Age of Discovery#042,,28.52
+q181,In which town did the conquistador who led the conquest of the Inca Empire capture Atahualpa?,Cajamarca,Cajamarca.,1,1.0,,Age of Discovery#089|Francisco Pizarro#001|Francisco Pizarro#023|Francisco Pizarro#032,,27.21
+q185,"Who died first, Christopher Columbus or Amerigo Vespucci?",Christopher Columbus,Christopher Columbus.,1,1.0,,Christopher Columbus#000|Amerigo Vespucci#034|Christopher Columbus#006|Amerigo Vespucci#014,,28.91
+q189,"Who was born first, Zheng He or Prince Henry the Navigator?",Zheng He,Prince Henry the Navigator.,0,0.0,,Prince Henry the Navigator#030|Prince Henry the Navigator#033|Prince Henry the Navigator#000|Prince Henry the Navigator#026,,28.65
+q193,"Who died first, Hernán Cortés or Francisco Pizarro?",Francisco Pizarro,Francisco Pizarro.,1,1.0,,Hernán Cortés#006|Francisco Pizarro#015|Hernán Cortés#075|Hernán Cortés#061,,26.59
+q197,"Who was born first, Ferdinand Magellan or Hernán Cortés?",Ferdinand Magellan,Cortés.,0,0.0,,Hernán Cortés#006|Ferdinand Magellan#003|Hernán Cortés#075|Ferdinand Magellan#001,,23.41

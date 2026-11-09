@@ -39,13 +39,31 @@ def fetch_article(session: requests.Session, title: str, max_retries: int = 5) -
             time.sleep(wait)
     raise Exception(f"Failed to fetch '{title}' after {max_retries} attempts.")
 
-# The full list of 15 titles (from the previous step)
+# The full list of 80 titles (from the previous step)
 TITLES = [
-    "Protestant Reformation", "Martin Luther", "Ninety-five Theses",
-    "John Calvin", "Counter-Reformation",
-    "Islamic Golden Age", "House of Wisdom", "Al-Khwarizmi", "Abbasid Caliphate",
-    "Crusades", "First Crusade", "Reconquista",
-    "History of Buddhism", "Silk Road", "Ashoka",
+    # Mughal Empire
+    "Mughal Empire", "Babur", "Humayun", "Akbar", "Jahangir",
+    "Shah Jahan", "Aurangzeb", "Nur Jahan", "Mumtaz Mahal", "Taj Mahal",
+    "First Battle of Panipat", "Second Battle of Panipat", "Fatehpur Sikri", "Red Fort", "Din-i Ilahi",
+    "Birbal", "Sher Shah Suri", "Akbarnama", "Abul Fazl", "Mughal painting",
+
+    # Scientific Revolution
+    "Scientific Revolution", "Nicolaus Copernicus", "De revolutionibus orbium coelestium", "Galileo Galilei", "Galileo affair",
+    "Johannes Kepler", "Kepler's laws of planetary motion", "Tycho Brahe", "Isaac Newton", "Philosophiæ Naturalis Principia Mathematica",
+    "Royal Society", "Francis Bacon", "René Descartes", "Robert Hooke", "Robert Boyle",
+    "Christiaan Huygens", "Edmond Halley", "Andreas Vesalius", "William Harvey", "Gottfried Wilhelm Leibniz",
+
+    # Mongol Empire
+    "Mongol Empire", "Genghis Khan", "Ögedei Khan", "Möngke Khan", "Kublai Khan",
+    "Hulagu Khan", "Batu Khan", "Yuan dynasty", "Golden Horde", "Ilkhanate",
+    "Chagatai Khanate", "Siege of Baghdad (1258)", "Battle of Ain Jalut", "Mongol invasions of Japan", "Marco Polo",
+    "The Travels of Marco Polo", "Pax Mongolica", "Yassa", "Börte", "Subutai",
+
+    # Age of Exploration
+    "Age of Discovery", "Prince Henry the Navigator", "Bartolomeu Dias", "Vasco da Gama", "Christopher Columbus",
+    "Isabella I of Castile", "Ferdinand Magellan", "Juan Sebastián Elcano", "Magellan expedition", "Treaty of Tordesillas",
+    "Amerigo Vespucci", "Pedro Álvares Cabral", "John Cabot", "Hernán Cortés", "Francisco Pizarro",
+    "Fall of Tenochtitlan", "Columbian exchange", "Portuguese Empire", "Caravel", "Carrack",
 ]
 
 def main():
