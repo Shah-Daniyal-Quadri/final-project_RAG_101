@@ -10,6 +10,7 @@ def _llm() -> ChatOllama:
         temperature=CFG["temperature"],
         seed=CFG["seed"],
         base_url=CFG["ollama_host"],
+        num_gpu=0,
     )
 
 def generate(prompt: str, system: str | None = None) -> str:
