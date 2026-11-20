@@ -67,33 +67,29 @@ TITLES = [
 ]
 
 def main():
-    # Create a session to reuse the TCP connection and handle cookies/rate-limiting better.
+    # Load what we already have
+    try:
+        with open(path("articles"), encoding="utf-8") as f:
+            existing = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing = []
+    by_title = {a["title"]: a for a in existing}
+
     with requests.Session() as session:
-        out = []
         for t in TITLES:
-            # Check if article was already fetched to resume progress.
-            try:
-                with open(path("articles"), "r", encoding="utf-8") as f:
-                    existing_data = json.load(f)
-                    if any(a["title"] == t for a in existing_data):
-                        print(f"Skipping (already fetched): {t}")
-                        out = existing_data # Keep existing data
-                        continue
-            except (FileNotFoundError, json.JSONDecodeError):
-                pass # File doesn't exist or is empty, start fresh.
-            
+            if t in by_title:
+                print(f"Cached: {t}")
+                continue
             print(f"Fetching: {t}")
             article = fetch_article(session, t)
-            out.append(article)
-            time.sleep(1.0) # A respectful delay between different articles.
-        
-        # Deduplicate in case of re-runs.
-        unique_out = {a["title"]: a for a in out}.values()
-        
-        path("articles").parent.mkdir(parents=True, exist_ok=True)
-        with open(path("articles"), "w", encoding="utf-8") as f:
-            json.dump(list(unique_out), f, ensure_ascii=False, indent=2)
-        print(f"Wrote {len(unique_out)} articles → {path('articles')}")
+            by_title[article["title"]] = article
+            time.sleep(1.0)
+
+    out = list(by_title.values())
+    path("articles").parent.mkdir(parents=True, exist_ok=True)
+    with open(path("articles"), "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(out)} articles -> {path('articles')}")
 
 if __name__ == "__main__":
     main()

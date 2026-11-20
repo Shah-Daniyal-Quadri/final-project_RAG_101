@@ -2,12 +2,25 @@ model: llama3.1:8b
 embedding_model: all-MiniLM-L6-v2
 temperature: 0
 seed: 42
+
+# Retrieval
 top_k_first: 2
 top_k_second: 2
 top_k_single: 4
+
+# Chunking (sentence-aware, no truncation)
 chunk_min_words: 60
-chunk_max_words: 140
+chunk_max_words: 160
+chunk_overlap_words: 20        # NEW: word overlap between adjacent chunks
+
+# Device selection — "auto" | "cpu" | "cuda"
+# "auto" uses CUDA if available, else CPU. This is the right default for a
+device: auto
+
+# Ollama
 ollama_host: http://localhost:11434
+num_ctx: 4096                  # NEW: model context window (raise if you see truncation)
+
 paths:
   articles: data/raw/articles.json
   chunks: data/processed/chunks.jsonl

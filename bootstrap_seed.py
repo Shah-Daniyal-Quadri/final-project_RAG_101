@@ -219,14 +219,5 @@ def main():
             f.write(json.dumps(q, ensure_ascii=False) + "\n")
     print(f"Wrote {len(QUESTIONS)} questions -> {qpath}")
  
-    sdir = path("splits")
-    sdir.mkdir(parents=True, exist_ok=True)
-    ids = [q["qid"] for q in QUESTIONS]
-    dev = ids[::4]                         # every 4th question
-    test = [i for i in ids if i not in dev]
-    json.dump(dev,  open(sdir / "dev.json",  "w"))
-    json.dump(test, open(sdir / "test.json", "w"))
-    print(f"dev={len(dev)} test={len(test)} -> {sdir}")
- 
 if __name__ == "__main__":
     main()
