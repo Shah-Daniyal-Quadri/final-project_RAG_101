@@ -24,7 +24,9 @@ def _detect_device() -> dict:
     except Exception:
         pass
 
-    return {"available": False, "name": None, "num_gpu": 0}
+    # torch can't see CUDA (e.g. CPU-only torch build), but Ollama detects the
+    # GPU on its own -- don't force num_gpu=0, let Ollama decide.
+    return {"available": False, "name": "auto (Ollama decides)", "num_gpu": None}
 
 
 @lru_cache
@@ -42,7 +44,9 @@ def _llm() -> ChatOllama:
     if num_ctx:
         kwargs["num_ctx"] = num_ctx
 
-    print(f"[llm] backend: {'GPU (' + dev['name'] + ')' if dev['available'] else 'CPU'}"
+    backend = ("GPU (" + dev["name"] + ")" if dev["available"]
+               else "CPU" if dev["num_gpu"] == 0 else dev["name"])
+    print(f"[llm] backend: {backend}"
           f" | model={CFG['model']} | num_gpu={dev['num_gpu']}")
     return ChatOllama(**kwargs)
 

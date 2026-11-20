@@ -9,9 +9,8 @@ top_k_second: 2
 top_k_single: 4
 
 # Chunking (sentence-aware, no truncation)
-chunk_min_words: 60
-chunk_max_words: 160
-chunk_overlap_words: 20        # NEW: word overlap between adjacent chunks
+chunk_max_words: 200
+chunk_overlap_words: 50
 
 # Device selection — "auto" | "cpu" | "cuda"
 # "auto" uses CUDA if available, else CPU. This is the right default for a
@@ -26,5 +25,6 @@ paths:
   chunks: data/processed/chunks.jsonl
   index: data/processed/index.npz
   questions: data/processed/questions.jsonl
+  supporting_articles: data/processed/supporting_articles.json   # gold articles per question (for Recall@k)
   splits: data/splits
   results: results

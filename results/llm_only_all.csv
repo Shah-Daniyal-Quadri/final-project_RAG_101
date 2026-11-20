@@ -1,0 +1,208 @@
+qid,question,gold,pred,em,f1,recall_at_2,recall_at_4,recall_at_10,gold_articles,retrieved,followup_query,latency_s
+q001,The ruler who defeated Ibrahim Lodi at the First Battle of Panipat wrote his memoirs in which Turkic language?,Chagatai,Persian,0,0.0,,,,First Battle of Panipat|Babur,,,3.48
+q002,The ruler who defeated Ibrahim Lodi at the First Battle of Panipat was born in which city?,Andijan,Delhi,0,0.0,,,,First Battle of Panipat|Babur,,,0.43
+q003,The Mughal emperor defeated by Sher Shah Suri at Kannauj died after falling down the stairs of which building?,Sher Mandal,Red Fort,0,0.0,,,,Sher Shah Suri|Humayun,,,0.42
+q004,The wife for whom the Taj Mahal was built died in which city?,Burhanpur,Agra,0,0.0,,,,Taj Mahal|Mumtaz Mahal,,,0.4
+q005,What was the birth name of the empress who was the paternal aunt of Mumtaz Mahal?,Mehr-un-Nissa,Jahanara Begum,0,0.0,,,,Mumtaz Mahal|Nur Jahan,,,0.7
+q006,Who was the first husband of Jahangir's most powerful wife?,Sher Afgan,Khusrau,0,0.0,,,,Jahangir|Nur Jahan,,,0.54
+q007,The emperor who founded the Din-i Ilahi was born in which fortress town in Sindh?,Amarkot,Multan,0,0.0,,,,Din-i Ilahi|Akbar,,,0.49
+q008,Who acted as regent for the emperor who built Fatehpur Sikri during his early reign?,Bairam Khan,Baiju Bajra,0,0.0,,,,Fatehpur Sikri|Akbar,,,0.69
+q009,The emperor who commissioned the Red Fort was imprisoned by his son in which fort?,Agra Fort,Agra Fort,1,1.0,,,,Red Fort|Shah Jahan,,,0.48
+q010,Which tax on non-Muslims did Shah Jahan's son and successor reimpose in 1679?,jizya,Jizya,1,1.0,,,,Shah Jahan|Aurangzeb,,,0.47
+q011,The Afghan ruler who drove Humayun out of India introduced which silver coin?,rupiya,Sher Shah,0,0.0,,,,Humayun|Sher Shah Suri,,,0.41
+q012,The son and successor of Babur took refuge at the court of which Safavid shah?,Tahmasp I,Shah Tahmasp,0,0.5,,,,Babur|Humayun,,,0.57
+q013,Akbar's capital city built in the 1570s honoured which Sufi saint?,Salim Chishti,Moinuddin Chishti,0,0.5,,,,Akbar|Fatehpur Sikri,,,0.68
+q014,What is the name of the compilation of Islamic law made under the emperor who imprisoned Shah Jahan?,Fatawa-e-Alamgiri,Fatawa-e-Alamgiri,1,1.0,,,,Shah Jahan|Aurangzeb,,,0.82
+q015,The emperor who brought Persian painters to found the Mughal painting workshop died in which year?,1556,1526,0,0.0,,,,Mughal painting|Humayun,,,0.5
+q016,The architect usually credited with designing the Taj Mahal is also credited with which fort in Delhi?,Red Fort,Red Fort,1,1.0,,,,Taj Mahal|Red Fort,,,0.45
+q017,Who was the father of the empress buried in the Taj Mahal?,Asaf Khan,Mughal Emperor Shah Jahan,0,0.0,,,,Taj Mahal|Mumtaz Mahal,,,0.74
+q018,The ruler who defeated Rana Sanga at the Battle of Khanwa died in which year?,1530,1527,0,0.0,,,,Babur,,,0.52
+q019,What is the title of the memoirs written by the ruler who defeated Rana Sanga at Khanwa?,Baburnama,Baburnama,1,1.0,,,,Babur,,,0.62
+q020,In which year did Babur's son and successor lose the Battle of Chausa?,1539,1539,1,1.0,,,,Babur|Humayun,,,0.43
+q021,Which Hindu minister reformed the revenue system of the emperor who founded the Din-i Ilahi?,Todar Mal,Raja Todar Mal,0,0.8,,,,Din-i Ilahi|Akbar,,,0.66
+q022,What was the name of the hall for religious debates built by the emperor whose forces won the Second Battle of Panipat?,Ibadat Khana,Jehangir's Hall,0,0.0,,,,Second Battle of Panipat|Akbar,,,0.82
+q023,What was the birth name of the emperor who married Nur Jahan?,Salim,Jahangir,0,0.0,,,,Nur Jahan|Jahangir,,,0.56
+q024,Which English ambassador of King James I visited the court of Nur Jahan's husband?,Thomas Roe,Sir Thomas Roe,0,0.8,,,,Nur Jahan|Jahangir,,,0.46
+q025,Which jewelled throne was commissioned by the emperor who built the Taj Mahal?,Peacock Throne,Peacock Throne,1,1.0,,,,Taj Mahal|Shah Jahan,,,0.45
+q026,Which title meaning 'conqueror of the world' was taken by the son of Mumtaz Mahal who became emperor?,Alamgir,Dara Shikoh,0,0.0,,,,Mumtaz Mahal|Aurangzeb,,,0.63
+q027,Near which Deccan city did the emperor who deposed his father Shah Jahan die?,Ahmednagar,Aurangabad,0,0.0,,,,Shah Jahan|Aurangzeb,,,0.52
+q028,"The last Mughal emperor, put on trial at the Red Fort, was exiled to which city?",Rangoon,Rangoon,1,1.0,,,,Red Fort|Bahadur Shah Zafar,,,0.47
+q029,The Afghan ruler who defeated Humayun at Chausa was killed during the siege of which fort?,Kalinjar,Khwaja Man Singh,0,0.0,,,,Humayun|Sher Shah Suri,,,0.57
+q030,Which major road across northern India was rebuilt by the Afghan ruler who drove Humayun into exile?,Grand Trunk Road,Sher Shah Suri,0,0.0,,,,Humayun|Sher Shah Suri,,,0.6
+q031,What was the birth name of the empress buried in the Taj Mahal?,Arjumand Banu Begum,Mumtaz Mahal,0,0.0,,,,Taj Mahal|Mumtaz Mahal,,,0.66
+q032,Which Hindu king was defeated in the 1556 battle that secured the throne for the boy emperor Akbar?,Hemu,Hem Chandra Vikramaditya,0,0.0,,,,Second Battle of Panipat|Akbar,,,0.79
+q033,"Who died first, Babur or Humayun?",Babur,Humayun,0,0.0,,,,Babur|Humayun,,,0.45
+q034,"Which battle was fought earlier, the Battle of Khanwa or the First Battle of Panipat?",First Battle of Panipat,1527,0,0.0,,,,First Battle of Panipat|Babur,,,0.4
+q035,"Who reigned longer as emperor, Jahangir or Shah Jahan?",Shah Jahan,Shah Jahan,1,1.0,,,,Jahangir|Shah Jahan,,,0.55
+q036,"Who was born earlier, Nur Jahan or Mumtaz Mahal?",Nur Jahan,Mumtaz Mahal,0,0.0,,,,Nur Jahan|Mumtaz Mahal,,,0.61
+q037,"Which battle was fought earlier, the Second Battle of Panipat or the Battle of Khanwa?",Battle of Khanwa,1527,0,0.0,,,,Second Battle of Panipat|Babur,,,0.41
+q038,"Who was younger when she died, Mumtaz Mahal or Nur Jahan?",Mumtaz Mahal,Mumtaz Mahal,1,1.0,,,,Mumtaz Mahal|Nur Jahan,,,0.61
+q039,"Who was born earlier, Aurangzeb or Bahadur Shah Zafar?",Aurangzeb,Aurangzeb,1,1.0,,,,Aurangzeb|Bahadur Shah Zafar,,,0.59
+q040,"Which was founded earlier, Fatehpur Sikri or the Red Fort?",Fatehpur Sikri,1571,0,0.0,,,,Fatehpur Sikri|Red Fort,,,0.4
+q041,"Who lived longer, Aurangzeb or Akbar?",Aurangzeb,Akbar,0,0.0,,,,Aurangzeb|Akbar,,,0.41
+q042,"Who became emperor at a younger age, Akbar or Shah Jahan?",Akbar,Akbar,1,1.0,,,,Akbar|Shah Jahan,,,0.41
+q043,"Which came first, the founding of the Din-i Ilahi or the start of construction of the Taj Mahal?",Din-i Ilahi,1627,0,0.0,,,,Din-i Ilahi|Taj Mahal,,,0.41
+q044,"Who died first, Sher Shah Suri or Humayun?",Sher Shah Suri,Humayun,0,0.0,,,,Sher Shah Suri|Humayun,,,0.46
+q045,"Who was born earlier, Jahangir or Nur Jahan?",Jahangir,Nur Jahan,0,0.0,,,,Jahangir|Nur Jahan,,,0.51
+q046,"Who was older when he died, Bahadur Shah Zafar or Shah Jahan?",Bahadur Shah Zafar,Bahadur Shah Zafar,1,1.0,,,,Bahadur Shah Zafar|Shah Jahan,,,0.68
+q047,"Who died first, Jahangir or Mumtaz Mahal?",Jahangir,Mumtaz Mahal,0,0.0,,,,Jahangir|Mumtaz Mahal,,,0.63
+q048,"Who ruled as emperor for more years in total, Humayun or Babur?",Humayun,Humayun,1,1.0,,,,Humayun|Babur,,,0.47
+q049,"Who was born first, Shah Jahan or Mumtaz Mahal?",Shah Jahan,Shah Jahan,1,1.0,,,,Shah Jahan|Mumtaz Mahal,,,0.51
+q050,"Who died first, Akbar or Sher Shah Suri?",Sher Shah Suri,Sher Shah Suri,1,1.0,,,,Akbar|Sher Shah Suri,,,0.5
+q051,Tycho Brahe's assistant who used his data published which 1619 book on the harmony of the planets?,Harmonice Mundi,Johannes Kepler,0,0.0,,,,Tycho Brahe|Johannes Kepler,,,0.51
+q052,The Danish astronomer whose observations Kepler used died in which city?,Prague,Rosenkrantz,0,0.0,,,,Johannes Kepler|Tycho Brahe,,,0.55
+q053,Robert Boyle's assistant who built his air pump had a famous dispute with which scientist over the inverse-square law?,Isaac Newton,Isaac Newton,1,1.0,,,,Robert Boyle|Robert Hooke,,,0.47
+q054,The author of the Principia was buried in which church?,Westminster Abbey,Westminster Abbey,1,1.0,,,,Philosophiæ Naturalis Principia Mathematica|Isaac Newton,,,0.45
+q055,The scientist at the centre of the Galileo affair was born in which city?,Pisa,Pisa,1,1.0,,,,Galileo affair|Galileo Galilei,,,0.39
+q056,The author of De revolutionibus orbium coelestium died in which town?,Frombork,Altdorf,0,0.0,,,,De revolutionibus orbium coelestium|Nicolaus Copernicus,,,0.45
+q057,The anatomist whose 1543 book corrected errors of Galen was born in which city?,Brussels,Padua,0,0.0,,,,Andreas Vesalius,,,0.41
+q058,The scientist who was president of the Royal Society from 1703 studied at which Cambridge college?,Trinity College,Trinity College,1,1.0,,,,Royal Society|Isaac Newton,,,0.48
+q059,The Royal Society founder who wrote The Sceptical Chymist was born at which castle in Ireland?,Lismore Castle,Castlemartyr,0,0.0,,,,Robert Boyle,,,0.52
+q060,The society that received Leeuwenhoek's letters about microorganisms got its royal charter from which king?,Charles II,William,0,0.0,,,,Antonie van Leeuwenhoek|Royal Society,,,0.35
+q061,The scientist who derived Kepler's laws from his law of gravitation held which professorship at Cambridge?,Lucasian Professor of Mathematics,Isaac Newton,0,0.0,,,,Kepler's laws of planetary motion|Isaac Newton,,,0.46
+q062,The astronomer whose observations Kepler used to find his laws observed a new star in which year?,1572,1604,0,0.0,,,,Johannes Kepler|Tycho Brahe,,,0.41
+q063,The astronomer who revived the Sun-centred model in 1543 was born in which city?,Toruń,Florence,0,0.0,,,,Nicolaus Copernicus,,,0.42
+q064,Tycho Brahe's assistant later served as imperial mathematician to which Holy Roman Emperor?,Rudolf II,Ferdinand II,0,0.5,,,,Tycho Brahe|Johannes Kepler,,,0.72
+q065,Which Flemish anatomist taught at the Italian university where William Harvey studied medicine?,Andreas Vesalius,Andreas Vesalius,1,1.0,,,,William Harvey|Andreas Vesalius,,,0.61
+q066,The philosopher whose ideas inspired the founders of the Royal Society reportedly died after stuffing which animal with snow?,chicken,Francis Bacon,0,0.0,,,,Royal Society|Francis Bacon,,,0.48
+q067,The Dutch scientist who argued with Hooke over the balance spring invented which timekeeping device in 1656?,pendulum clock,Christiaan Huygens,0,0.0,,,,Robert Hooke|Christiaan Huygens,,,0.79
+q068,The astronomer whose circular orbits were replaced by Kepler's ellipses received a doctorate in canon law from which Italian university?,University of Ferrara,Padua,0,0.0,,,,Johannes Kepler|Nicolaus Copernicus,,,0.51
+q069,On which island did the astronomer whose observations Kepler used build his observatory?,Hven,Tenerife,0,0.0,,,,Johannes Kepler|Tycho Brahe,,,0.54
+q070,What is the title of the 1609 book by Tycho Brahe's assistant that gave his first two laws of planetary motion?,Astronomia nova,De Motu Stellarum Inerrantium,0,0.0,,,,Tycho Brahe|Johannes Kepler,,,0.89
+q071,What name did the scientist tried by the Inquisition in 1633 give to Jupiter's four largest moons?,Medicean stars,Galileo,0,0.0,,,,Galileo affair|Galileo Galilei,,,0.47
+q072,Which post at the Royal Mint did the author of the Principia hold from 1699?,Master of the Mint,Master of the Mint,1,1.0,,,,Philosophiæ Naturalis Principia Mathematica|Isaac Newton,,,0.63
+q073,Who paid for the publication of the 1687 masterpiece of the Royal Society's president from 1703?,Edmond Halley,Edmond Halley,1,1.0,,,,Philosophiæ Naturalis Principia Mathematica|Edmond Halley,,,0.59
+q074,What is the title of the 1620 book on scientific method by the English philosopher whose ideas inspired the Royal Society?,Novum Organum,Novum Organum,1,1.0,,,,Royal Society|Francis Bacon,,,0.54
+q075,Which queen invited the French philosopher of the Scientific Revolution who wrote 'Discourse on the Method' to her court?,Christina,Henrietta Maria,0,0.0,,,,René Descartes,,,0.59
+q076,In which year did the Royal Society founder who employed Robert Hooke publish his law on gas pressure?,1662,1662,1,1.0,,,,Robert Hooke|Robert Boyle,,,0.46
+q077,What is the Latin motto of the learned society that Isaac Newton led as president?,Nullius in verba,Scientia Potentia Est,0,0.0,,,,Isaac Newton|Royal Society,,,0.77
+q078,What 1665 book of microscope drawings was written by Robert Boyle's assistant?,Micrographia,Rober Gunaike,0,0.0,,,,Robert Boyle|Robert Hooke,,,0.65
+q079,Which moon of Saturn was discovered by the Dutch scientist who argued with Hooke over the balance spring?,Titan,"Dien
+
+(Iapetus)",0,0.0,,,,Robert Hooke|Christiaan Huygens,,,0.68
+q080,What is the title of the 1543 anatomy book by the Flemish anatomist of the Scientific Revolution who corrected Galen?,De humani corporis fabrica,De Humani Corporis Fabrica,1,1.0,,,,Andreas Vesalius,,,0.7
+q081,"What is the short title of the 1628 book by the English physician who studied at Padua, where Vesalius had taught?",De Motu Cordis,De Motu Cordis,1,1.0,,,,Andreas Vesalius|William Harvey,,,0.59
+q082,What did the Dutch scientist whose letters were published by the Royal Society call the tiny organisms he saw?,animalcules,Microzymes,0,0.0,,,,Royal Society|Antonie van Leeuwenhoek,,,0.47
+q083,"Who was born first, Galileo Galilei or Johannes Kepler?",Galileo Galilei,Johannes Kepler,0,0.0,,,,Galileo Galilei|Johannes Kepler,,,0.5
+q084,"Who died first, Tycho Brahe or Johannes Kepler?",Tycho Brahe,Tycho Brahe,1,1.0,,,,Tycho Brahe|Johannes Kepler,,,0.6
+q085,"Who was born first, Robert Boyle or Robert Hooke?",Robert Boyle,Robert Hooke,0,0.5,,,,Robert Boyle|Robert Hooke,,,0.58
+q086,"Who lived longer, Isaac Newton or Robert Hooke?",Isaac Newton,Isaac Newton,1,1.0,,,,Isaac Newton|Robert Hooke,,,0.56
+q087,"Which book was published first, De revolutionibus orbium coelestium or Philosophiæ Naturalis Principia Mathematica?",De revolutionibus orbium coelestium,De revolutionibus orbium coelestium,1,1.0,,,,De revolutionibus orbium coelestium|Philosophiæ Naturalis Principia Mathematica,,,0.89
+q088,"Who was born first, Francis Bacon or René Descartes?",Francis Bacon,René Descartes,0,0.0,,,,Francis Bacon|René Descartes,,,0.62
+q089,"Who died first, Andreas Vesalius or Nicolaus Copernicus?",Nicolaus Copernicus,Nicolaus Copernicus,1,1.0,,,,Andreas Vesalius|Nicolaus Copernicus,,,0.88
+q090,"Who was born first, William Harvey or Galileo Galilei?",Galileo Galilei,Galileo Galilei,1,1.0,,,,William Harvey|Galileo Galilei,,,0.7
+q091,"Who lived longer, Antonie van Leeuwenhoek or Christiaan Huygens?",Antonie van Leeuwenhoek,Antonie van Leeuwenhoek,1,1.0,,,,Antonie van Leeuwenhoek|Christiaan Huygens,,,0.94
+q092,"Who was born first, Christiaan Huygens or Isaac Newton?",Christiaan Huygens,Christiaan Huygens,1,1.0,,,,Christiaan Huygens|Isaac Newton,,,0.65
+q093,"Who died first, René Descartes or Francis Bacon?",Francis Bacon,Francis Bacon,1,1.0,,,,René Descartes|Francis Bacon,,,0.47
+q094,"Who was older when he died, Galileo Galilei or Johannes Kepler?",Galileo Galilei,Galileo Galilei,1,1.0,,,,Galileo Galilei|Johannes Kepler,,,0.57
+q095,"Who was born first, Tycho Brahe or Francis Bacon?",Tycho Brahe,Tycho Brahe,1,1.0,,,,Tycho Brahe|Francis Bacon,,,0.58
+q096,"Who died first, William Harvey or René Descartes?",René Descartes,René Descartes,1,1.0,,,,William Harvey|René Descartes,,,0.56
+q097,"Who was born first, Andreas Vesalius or Tycho Brahe?",Andreas Vesalius,Andreas Vesalius,1,1.0,,,,Andreas Vesalius|Tycho Brahe,,,0.62
+q098,"Who died first, Robert Boyle or Christiaan Huygens?",Robert Boyle,Robert Boyle,1,1.0,,,,Robert Boyle|Christiaan Huygens,,,0.4
+q099,"Who lived longer, Nicolaus Copernicus or Tycho Brahe?",Nicolaus Copernicus,Tycho Brahe,0,0.0,,,,Nicolaus Copernicus|Tycho Brahe,,,0.5
+q100,"Who was born first, Antonie van Leeuwenhoek or Robert Hooke?",Antonie van Leeuwenhoek,Antonie van Leeuwenhoek,1,1.0,,,,Antonie van Leeuwenhoek|Robert Hooke,,,0.82
+q101,The Mongol ruler who led the invasion of Kievan Rus' founded which capital city on the Volga?,Sarai,Sarai,1,1.0,,,,Batu Khan|Golden Horde,,,0.49
+q102,The founder of the Ilkhanate died in which year?,1265,1256,0,0.0,,,,Ilkhanate|Hulegu Khan,,,0.4
+q103,The Mongol commander who captured Baghdad in 1258 had a Christian chief wife named what?,Doquz Khatun,Bathsheba,0,0.0,,,,Siege of Baghdad|Hulegu Khan,,,0.53
+q104,The emperor who ordered the invasions of Japan had his summer capital at which city?,Shangdu,Kyoto,0,0.0,,,,Mongol invasions of Japan|Kublai Khan,,,0.41
+q105,The Venetian who served Kublai Khan dictated his travels to which writer from Pisa?,Rustichello da Pisa,"Marco Polo
+Pietro della Valle",0,0.0,,,,Marco Polo|The Travels of Marco Polo,,,0.97
+q106,Which Flemish friar visited the capital city that Ögedei Khan built up?,William of Rubruck,William of Rubruck,1,1.0,,,,Ögedei Khan|Möngke Khan,,,0.59
+q107,The Great Khan who sent Hulagu west died besieging which Chinese fortress?,Diaoyu Fortress,Xiangyang,0,0.0,,,,Hulegu Khan|Möngke Khan,,,0.45
+q108,The dynasty founded by Kublai Khan was replaced in 1368 by which dynasty?,Ming dynasty,Ming,0,0.6666666666666666,,,,Kublai Khan|Yuan dynasty,,,0.4
+q109,The conqueror who rose to power in the western Chagatai Khanate was born near which city?,Kesh,"Sultan Mahmud Ghazan's birthplace is not the answer to this question. 
+
+Sibir",0,0.0,,,,Chagatai Khanate|Timur,,,1.49
+q110,The ruler who issued the Yassa law code married which woman as his first wife?,Börte,Gökböri,0,0.0,,,,Yassa|Genghis Khan,,,0.57
+q111,The founder of the Golden Horde was the son of which eldest son of Genghis Khan?,Jochi,Jochi,1,1.0,,,,Golden Horde|Batu Khan,,,0.45
+q112,The Venetian traveller whose journey is a famous example of the Pax Mongolica died in which year?,1324,1298,0,0.0,,,,Pax Mongolica|Marco Polo,,,0.43
+q113,The son of Genghis Khan after whom the Chagatai Khanate is named was the guardian of which law code?,Yassa,Yassa,1,1.0,,,,Chagatai Khanate|Yassa,,,0.42
+q114,The founder of the dynasty that ruled from Khanbaliq was born in which year?,1215,1216,0,0.0,,,,Yuan dynasty|Kublai Khan,,,0.4
+q115,The Mongol commander who sacked Baghdad in 1258 sponsored an observatory in which city?,Maragheh,Maragheh,1,1.0,,,,Siege of Baghdad|Hulegu Khan,,,0.51
+q116,The Ilkhan whose general was defeated at Ain Jalut was buried on an island in which lake?,Lake Urmia,Lake Van,0,0.5,,,,Battle of Ain Jalut|Hulegu Khan,,,0.4
+q117,The conqueror who defeated Tokhtamysh of the Golden Horde died in which year?,1405,Ivan III,0,0.0,,,,Golden Horde|Timur,,,0.49
+q118,Who was the favourite wife of the Mongol ruler whom Marco Polo served?,Chabi,Kublai's favourite wife was Chabi,0,0.33333333333333337,,,,Marco Polo|Kublai Khan,,,0.83
+q119,What was the birth name of the ruler who created the Yassa law code?,Temüjin,Genghis Khan,0,0.0,,,,Yassa|Genghis Khan,,,0.51
+q120,What was the name of the paternal grandfather of Ögedei Khan?,Yesügei,Chilaun,0,0.0,,,,Ögedei Khan|Genghis Khan,,,0.44
+q121,What is the name of the assembly that proclaimed Ögedei's father ruler of the Mongols in 1206?,kurultai,Curultai,0,0.0,,,,Ögedei Khan|Genghis Khan,,,0.47
+q122,Which widow ruled as regent after the death of the Great Khan who made Karakorum his capital?,Töregene,"Öulun
+
+Note: Öulun was a widow of Ögedei Khan, the Great Khan who made Karakorum his capital.",0,0.0,,,,Ögedei Khan,,,1.9
+q123,What did the Mongols call the capital city of the ruler whom Marco Polo served?,Khanbaliq,Khanbaliq,1,1.0,,,,Marco Polo|Kublai Khan,,,0.59
+q124,Which Nizari Ismaili fortress was taken in 1256 by the founder of the Ilkhanate?,Alamut,Alamut,1,1.0,,,,Ilkhanate|Hulegu Khan,,,0.47
+q125,At which 1241 battle did the founder of the Golden Horde defeat the Hungarians?,Battle of Mohi,Muhi,0,0.0,,,,Golden Horde|Batu Khan,,,0.41
+q126,What nickname meaning 'good khan' was given to the commander of the Mongol invasion of Kievan Rus'?,Sain Khan,Batu Khan,0,0.5,,,,Batu Khan,,,0.46
+q127,In which year did the ruler whom Marco Polo served proclaim his Chinese dynasty?,1271,1271,1,1.0,,,,Marco Polo|Kublai Khan,,,0.39
+q128,Which khan made Islam the state religion of the khanate founded by Batu?,Uzbeg Khan,Uzbeg,0,0.6666666666666666,,,,Batu Khan|Golden Horde,,,0.48
+q129,Which ruler of the khanate founded by Hulagu converted to Islam in 1295?,Ghazan,Tekuder,0,0.0,,,,Hulegu Khan|Ilkhanate,,,0.42
+q130,What was the eastern part of the khanate in which Timur rose to power called?,Moghulistan,Transoxiana,0,0.0,,,,Timur|Chagatai Khanate,,,0.48
+q131,Which Abbasid caliph was killed after the 1258 siege led by the founder of the Ilkhanate?,Al-Musta'sim,Al-Musta'sim,1,1.0,,,,Ilkhanate|Siege of Baghdad,,,0.6
+q132,Which Mamluk sultan defeated the army that Hulagu Khan left in Syria in 1260?,Qutuz,Qutuz,1,1.0,,,,Hulegu Khan|Battle of Ain Jalut,,,0.49
+q133,"Who died first, Genghis Khan or Ögedei Khan?",Genghis Khan,Genghis Khan,1,1.0,,,,Genghis Khan|Ögedei Khan,,,0.72
+q134,"Who was born first, Kublai Khan or Möngke Khan?",Möngke Khan,Möngke Khan,1,1.0,,,,Kublai Khan|Möngke Khan,,,0.75
+q135,"Which happened first, the Siege of Baghdad (1258) or the Battle of Ain Jalut?",Siege of Baghdad,1258,0,0.0,,,,Siege of Baghdad|Battle of Ain Jalut,,,0.45
+q136,"Who died first, Hulagu Khan or Kublai Khan?",Hulagu Khan,Hulagu Khan,1,1.0,,,,Hulegu Khan|Kublai Khan,,,0.54
+q137,"Which was founded first, the Yuan dynasty or the Ilkhanate?",Ilkhanate,Yuan,0,0.0,,,,Yuan dynasty|Ilkhanate,,,0.46
+q138,"Which lasted longer, the Golden Horde or the Ilkhanate?",Golden Horde,The Golden Horde,1,1.0,,,,Golden Horde|Ilkhanate,,,0.62
+q139,"Who was born first, Timur or Marco Polo?",Marco Polo,Marco Polo,1,1.0,,,,Timur|Marco Polo,,,0.54
+q140,"Which happened first, the Mongol invasion of Kievan Rus' or the Mongol invasions of Japan?",Mongol invasion of Kievan Rus',1223,0,0.0,,,,Batu Khan|Mongol invasions of Japan,,,0.43
+q141,"Who died first, Batu Khan or Möngke Khan?",Batu Khan,Möngke Khan,0,0.5,,,,Batu Khan|Möngke Khan,,,0.58
+q142,"Who reigned longer as Great Khan, Ögedei Khan or Möngke Khan?",Ögedei Khan,Ögedei Khan,1,1.0,,,,Ögedei Khan|Möngke Khan,,,0.52
+q143,"Who was born first, Batu Khan or Kublai Khan?",Batu Khan,Batu Khan,1,1.0,,,,Batu Khan|Kublai Khan,,,0.46
+q144,"Who died first, Marco Polo or Kublai Khan?",Kublai Khan,Kublai Khan,1,1.0,,,,Marco Polo|Kublai Khan,,,0.63
+q145,"Which came to an end first, the Yuan dynasty or the Ilkhanate?",Ilkhanate,1368,0,0.0,,,,Yuan dynasty|Ilkhanate,,,0.45
+q146,"Who was born first, Ögedei Khan or Batu Khan?",Ögedei Khan,Ögedei Khan,1,1.0,,,,Ögedei Khan|Batu Khan,,,0.52
+q147,"Which city did the Mongols take first, Kiev or Baghdad?",Kiev,Kiev,1,1.0,,,,Batu Khan|Siege of Baghdad,,,0.4
+q148,"Who lived longer, Genghis Khan or Kublai Khan?",Kublai Khan,Genghis Khan,0,0.5,,,,Genghis Khan|Kublai Khan,,,0.5
+q149,"Who died first, Timur or Hulagu Khan?",Hulagu Khan,Hulagu Khan,1,1.0,,,,Timur|Hulegu Khan,,,0.52
+q150,"Which was founded first as a Mongol capital, Karakorum or Khanbaliq?",Karakorum,Karakorum,1,1.0,,,,Ögedei Khan|Kublai Khan,,,0.48
+q151,The navigator who rounded southern Africa ten years before Vasco da Gama first named that cape what?,Cape of Storms,Cape of Good Hope was named by Bartolomeu Dias.,0,0.3333333333333333,,,,Bartolomeu Dias|Vasco da Gama,,,1.07
+q152,The Portuguese prince linked with the development of the caravel was the son of which king?,John I,Henry the Navigator,0,0.0,,,,Caravel|Prince Henry the Navigator,,,0.46
+q153,The leader of the first expedition to sail around the world was killed at which battle?,Battle of Mactan,Cape Horn,0,0.0,,,,Magellan expedition|Ferdinand Magellan,,,0.48
+q154,The conquistador who conquered the Aztec Empire was born in which town?,Medellín,Talavera de la Reina,0,0.0,,,,Fall of Tenochtitlan|Hernán Cortés,,,0.75
+q155,The conqueror of the Inca Empire was a relative of which other conquistador?,Hernán Cortés,Francisco Pizarro,0,0.0,,,,Spanish conquest of the Inca Empire|Francisco Pizarro,,,0.58
+q156,The conquistador who captured Atahualpa was assassinated in which city?,Lima,Villarrica,0,0.0,,,,Spanish conquest of the Inca Empire|Francisco Pizarro,,,0.52
+q157,The explorer whose voyages started the Columbian exchange was born in which city?,Genoa,Genoa,1,1.0,,,,Columbian exchange|Christopher Columbus,,,0.41
+q158,The explorer whose voyages led to the Treaty of Tordesillas died in which city?,Valladolid,Seville,0,0.0,,,,Treaty of Tordesillas|Christopher Columbus,,,0.4
+q159,The Ming admiral who led the treasure voyages was born with which name?,Ma He,Zheng Yijiang,0,0.0,,,,Zheng He,,,0.56
+q160,The Dutch trading company that challenged the Portuguese in Asia was founded in which year?,1602,1602,1,1.0,,,,Portuguese Empire,,,0.4
+q161,The French navigator who explored the Saint Lawrence River came from which port town?,Saint-Malo,Honfleur,0,0.0,,,,Jacques Cartier,,,0.45
+q162,The commander of the first Portuguese India Armada died in which Indian city?,Cochin,Calicut,0,0.0,,,,Vasco da Gama,,,0.41
+q163,The leader of the Spanish circumnavigation expedition had earlier fought for Portugal at which 1509 battle in India?,Battle of Diu,Diu,0,0.5,,,,Magellan expedition|Ferdinand Magellan,,,0.42
+q164,What was the name of the son of the conqueror of Tenochtitlan and his Nahua interpreter?,Martín Cortés,Cuitláhuac,0,0.0,,,,Fall of Tenochtitlan|Hernán Cortés,,,0.57
+q165,The navigator whose first name was given to the Americas was born in which city?,Florence,Genoa,0,0.0,,,,Amerigo Vespucci,,,0.4
+q166,The Italian navigator who reached North America for England in 1497 sailed under letters patent from which king?,Henry VII,Henry VII,1,1.0,,,,John Cabot,,,0.41
+q167,The armada in which Bartolomeu Dias died reached which land on its way to India?,Brazil,South Africa,0,0.0,,,,Bartolomeu Dias|Pedro Álvares Cabral,,,0.42
+q168,The Inca ruler captured by Pizarro had fought a civil war against which half-brother?,Huáscar,Atahualpa,0,0.0,,,,Francisco Pizarro|Spanish conquest of the Inca Empire,,,0.52
+q169,Near which place in the Algarve did the prince linked with the development of the caravel die?,Sagres,Silves,0,0.0,,,,Caravel|Prince Henry the Navigator,,,0.53
+q170,Which Indian port did the commander of the first Portuguese India Armada reach in 1498?,Calicut,Calicut,1,1.0,,,,Vasco da Gama,,,0.45
+q171,What was the flagship of the explorer whose voyages started the Columbian exchange?,Santa María,Santa Maria,0,0.5,,,,Columbian exchange|Christopher Columbus,,,0.4
+q172,What did the Taíno call the island where the explorer whose voyages led to the Treaty of Tordesillas first landed?,Guanahani,Borikén,0,0.0,,,,Treaty of Tordesillas|Christopher Columbus,,,0.7
+q173,Which German cartographer named the New World after the Florentine navigator of the Age of Discovery?,Martin Waldseemüller,Martin Waldseemüller,1,1.0,,,,Amerigo Vespucci,,,0.75
+q174,What was the name of the ship of the Italian navigator who reached North America for England in 1497?,Matthew,Matthew,1,1.0,,,,John Cabot,,,0.36
+q175,What was the name of the enslaved interpreter from Malacca who served the leader of the first circumnavigation?,Enrique of Malacca,Tomé Pires,0,0.0,,,,Ferdinand Magellan|Magellan expedition,,,0.52
+q176,Who led the survivors home after the Portuguese navigator killed at Mactan died?,Juan Sebastián Elcano,Lapu-Lapu,0,0.0,,,,Ferdinand Magellan|Juan Sebastián Elcano,,,0.65
+q177,Which pope issued the bull that came before the treaty dividing the lands found by Columbus between Spain and Portugal?,Alexander VI,Alexander VI,1,1.0,,,,Treaty of Tordesillas,,,0.41
+q178,"Who coined the name for the transfer of plants, animals and diseases that followed Columbus's voyages?",Alfred W. Crosby,Alfred W. Crosby,1,1.0,,,,Columbian exchange,,,0.58
+q179,Which Nahua woman served as interpreter for the conquistador who conquered the Aztec Empire?,La Malinche,Malintzin,0,0.0,,,,Fall of Tenochtitlan|Hernán Cortés,,,0.45
+q180,What is the Spanish name for the night when the men of the conquistador born in Medellín fled Tenochtitlan?,La Noche Triste,La Noche Triste,1,1.0,,,,Hernán Cortés|Fall of Tenochtitlan,,,0.59
+q181,In which town did the conquistador who led the conquest of the Inca Empire capture Atahualpa?,Cajamarca,Cajamarca,1,1.0,,,,Spanish conquest of the Inca Empire|Francisco Pizarro,,,0.53
+q182,"Who was the last Inca ruler resisting the conquest begun by Pizarro, executed in 1572?",Túpac Amaru,Túpac Amaru,1,1.0,,,,Francisco Pizarro|Túpac Amaru,,,0.58
+q183,"Which came first, Bartolomeu Dias rounding the Cape of Good Hope or Columbus's first voyage?",Bartolomeu Dias,1488,0,0.0,,,,Bartolomeu Dias|Christopher Columbus,,,0.41
+q184,"Who was born first, Christopher Columbus or Vasco da Gama?",Christopher Columbus,Vasco da Gama,0,0.0,,,,Christopher Columbus|Vasco da Gama,,,0.59
+q185,"Who died first, Christopher Columbus or Amerigo Vespucci?",Christopher Columbus,Amerigo Vespucci,0,0.0,,,,Christopher Columbus|Amerigo Vespucci,,,0.63
+q186,"Which was completed first, the Spanish conquest of the Aztec Empire or of the Inca Empire?",Aztec Empire,1521,0,0.0,,,,Fall of Tenochtitlan|Spanish conquest of the Inca Empire,,,0.4
+q187,"Who was born first, Hernán Cortés or Francisco Pizarro?",Francisco Pizarro,Hernán Cortés,0,0.0,,,,Hernán Cortés|Francisco Pizarro,,,0.56
+q188,"Who died first, Ferdinand Magellan or Vasco da Gama?",Ferdinand Magellan,Vasco da Gama,0,0.0,,,,Ferdinand Magellan|Vasco da Gama,,,0.6
+q189,"Who was born first, Zheng He or Prince Henry the Navigator?",Zheng He,Prince Henry the Navigator,0,0.0,,,,Zheng He|Prince Henry the Navigator,,,0.53
+q190,"Which came first, the Treaty of Tordesillas or the founding of the Dutch East India Company?",Treaty of Tordesillas,Treaty of Tordesillas (1494),0,0.8571428571428571,,,,Treaty of Tordesillas|Portuguese Empire,,,0.9
+q191,"Who reached North America first, John Cabot or Jacques Cartier?",John Cabot,John Cabot,1,1.0,,,,John Cabot|Jacques Cartier,,,0.45
+q192,"Who died first, Prince Henry the Navigator or Zheng He?",Zheng He,Prince Henry the Navigator,0,0.0,,,,Prince Henry the Navigator|Zheng He,,,0.52
+q193,"Who died first, Hernán Cortés or Francisco Pizarro?",Francisco Pizarro,Hernán Cortés,0,0.0,,,,Hernán Cortés|Francisco Pizarro,,,0.58
+q194,"Who was born first, Amerigo Vespucci or Christopher Columbus?",Christopher Columbus,Amerigo Vespucci,0,0.0,,,,Amerigo Vespucci|Christopher Columbus,,,0.62
+q195,"Who lived longer, Jacques Cartier or John Cabot?",Jacques Cartier,Jacques Cartier,1,1.0,,,,Jacques Cartier|John Cabot,,,0.5
+q196,"Who died first, Bartolomeu Dias or Christopher Columbus?",Bartolomeu Dias,Bartolomeu Dias,1,1.0,,,,Bartolomeu Dias|Christopher Columbus,,,0.65
+q197,"Who was born first, Ferdinand Magellan or Hernán Cortés?",Ferdinand Magellan,Ferdinand Magellan,1,1.0,,,,Ferdinand Magellan|Hernán Cortés,,,0.57
+q198,"Who was born first, Jacques Cartier or Hernán Cortés?",Hernán Cortés,Jacques Cartier,0,0.0,,,,Jacques Cartier|Hernán Cortés,,,0.5
+q199,"Who died first, Amerigo Vespucci or Vasco da Gama?",Amerigo Vespucci,Vasco da Gama,0,0.0,,,,Amerigo Vespucci|Vasco da Gama,,,0.56
+q200,"Who was born first, Bartolomeu Dias or Vasco da Gama?",Bartolomeu Dias,Bartolomeu Dias,1,1.0,,,,Bartolomeu Dias|Vasco da Gama,,,0.65

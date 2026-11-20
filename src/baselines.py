@@ -5,7 +5,7 @@ from src.config import CFG
 
 def llm_only(question: str) -> dict:
     pred = generate(prompts.LLM_ONLY_PROMPT.format(question=question),
-                    system=prompts.SYSTEM)
+                    system=prompts.SYSTEM_LLM_ONLY)
     return {"pred": pred, "retrieved": []}
 
 def single_shot_rag(question: str) -> dict:

@@ -64,6 +64,14 @@ TITLES = [
     "Isabella I of Castile", "Ferdinand Magellan", "Juan Sebastián Elcano", "Magellan expedition", "Treaty of Tordesillas",
     "Amerigo Vespucci", "Pedro Álvares Cabral", "John Cabot", "Hernán Cortés", "Francisco Pizarro",
     "Fall of Tenochtitlan", "Columbian exchange", "Portuguese Empire", "Caravel", "Carrack",
+
+    # Added: articles needed by questions in questions.jsonl that the corpus didn't cover
+    "Antonie van Leeuwenhoek",                                  # q060 q078 q082 q091 q100
+    "Timur",                                                    # q109 q130 q139 q149
+    "Jacques Cartier",                                          # q161 q191 q195 q198
+    "Zheng He",                                                 # q108 q159 q189 q192
+    "Bahadur Shah Zafar",                                       # q028 q039 q046
+    "Inca Empire", "Spanish conquest of the Inca Empire", "Túpac Amaru",  # q182 q186 ...
 ]
 
 def main():
