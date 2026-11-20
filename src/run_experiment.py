@@ -18,11 +18,10 @@ def _mean_valid(xs: list[float]) -> float | None:
     vals = [x for x in xs if x == x]  # filter NaN
     return sum(vals) / len(vals) if vals else None
 
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--system", choices=SYSTEMS, required=True)
-    ap.add_argument("--split", choices=["dev", "test"], default="dev")
+    ap.add_argument("--split", choices=["all", "dev", "test"], default="all")
     args = ap.parse_args()
 
     fn = SYSTEMS[args.system]
@@ -57,6 +56,10 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     csv_path = out_dir / f"{args.system}_{args.split}.csv"
     pd.DataFrame(rows).to_csv(csv_path, index=False)
+
+    def _mean_valid(xs):
+        vals = [x for x in xs if x == x]
+        return sum(vals) / len(vals) if vals else None
 
     agg = {
         "system": args.system,
