@@ -14,6 +14,11 @@ def load_questions(split: str) -> list[dict]:
     split_ids = set(json.load(open(path("splits") / f"{split}.json")))
     return [q for q in qs if q["qid"] in split_ids]
 
+def _mean_valid(xs: list[float]) -> float | None:
+    vals = [x for x in xs if x == x]  # filter NaN
+    return sum(vals) / len(vals) if vals else None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--system", choices=SYSTEMS, required=True)
@@ -38,7 +43,9 @@ def main():
             "pred": out["pred"],
             "em": exact_match(out["pred"], gold),
             "f1": f1(out["pred"], gold),
+            "recall_at_2": recall_at_k(out["retrieved"], gold_ids, 2),
             "recall_at_4": recall_at_k(out["retrieved"], gold_ids, 4),
+            "recall_at_10": recall_at_k(out["retrieved"], gold_ids, 10),
             "retrieved": "|".join(out["retrieved"]),
             "followup_query": out.get("followup_query", ""),
             "latency_s": round(latency, 2),
@@ -52,14 +59,14 @@ def main():
     pd.DataFrame(rows).to_csv(csv_path, index=False)
 
     agg = {
-        "system": args.system, "split": args.split, "n": len(rows),
-        "EM": sum(r["em"] for r in rows) / len(rows),
-        "F1": sum(r["f1"] for r in rows) / len(rows),
-        "Recall@4": sum(r["recall_at_4"] for r in rows
-                        if r["recall_at_4"] == r["recall_at_4"]) / len(rows),
-        "avg_latency_s": sum(r["latency_s"] for r in rows) / len(rows),
+        "system": args.system,
+        "split": args.split,
+        "n": len(rows),
+        "EM": _mean_valid([r["em"] for r in rows]),
+        "F1": _mean_valid([r["f1"] for r in rows]),
+        "Recall@2": _mean_valid([r["recall_at_2"] for r in rows]),
+        "Recall@4": _mean_valid([r["recall_at_4"] for r in rows]),
+        "Recall@10": _mean_valid([r["recall_at_10"] for r in rows]),
+        "avg_latency_s": _mean_valid([r["latency_s"] for r in rows]),
     }
     print("\n" + json.dumps(agg, indent=2))
-
-if __name__ == "__main__":
-    main()
